@@ -1,0 +1,48 @@
+
+.mytables {
+  border-collapse: collapse;
+  margin: 20px;
+  border: 2px solid #247a;
+}
+.mytables tr td {
+  border: 1px solid #aaa;
+  padding: 5px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+pre {
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.nowrap {
+  white-space: nowrap;
+  white-space: pre;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid #247a;
+  margin: 5px;
+  padding: 5px;
+  cursor: default;
+}
+.btn:hover {
+  background-color: #2473;
+}
+
+.Driving {
+  background-color: #0703;
+}

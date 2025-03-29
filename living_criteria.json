@@ -1,0 +1,156 @@
+{
+    "Cout du loyer": {
+        "Name": "Cout du loyer",
+        "Categories":[""],
+        "Type": "Continuous",
+        "Min": 500,
+        "Max": 3000
+    },
+    "Type de logement": {
+        "Name": "Type de logement",
+        "Categories":[""],
+        "Type": "Discrete",
+        "Values": [
+            "Appartement",
+            "Maison, entiere",
+            "Maison, sous sol",
+            "Maison, bungalo",
+            "Townhouse"
+        ]
+    },
+    "Nbr de chambres": {
+        "Name": "Nbr de chambres",
+        "Categories":[""],
+        "Type": "Discrete",
+        "Values": [
+            1,
+            2,
+            3
+        ]
+    },
+    "Parking": {
+        "Name": "Parking",
+        "Categories":["Driving"],
+        "Type": "Discrete",
+        "Values": [
+            "No",
+            "Street",
+            "Exterieur",
+            "Underground parking"
+        ]
+    },
+    "Walkability": {
+        "Name": "Walkability",
+        "Categories":[""],
+        "Type": "Discrete",
+        "Values": [
+            0,
+            1
+        ]
+    },
+    "Drivability": {
+        "Name": "Drivability",
+        "Categories":["Driving"],
+        "Type": "Discrete",
+        "Values": [
+            0,
+            1
+        ]
+    },
+    "Water nearby": {
+        "Name": "Water nearby",
+        "Categories":[""],
+        "Type": "Discrete",
+        "Values": [
+            0,
+            1
+        ]
+    },
+    "Diversite d'activites economiques": {
+        "Name": "Diversite d'activites economiques",
+        "Categories":[""],
+        "Type": "Discrete",
+        "Values": [
+            "Low",
+            "High"
+        ]
+    },
+    "Employment prospects": {
+        "Name": "Employment prospects",
+        "Categories":[""],
+        "Type": "Discrete",
+        "Values": [
+            "Low",
+            "Medium",
+            "High"
+        ]
+    },
+    "Commute (distance domicile-travail), in minutes": {
+        "Name": "Commute (distance domicile-travail), in minutes",
+        "Categories":["Driving"],
+        "Type": "Continuous",
+        "Min": 5,
+        "Max": 60
+    },
+    "Aeroport international": {
+        "Name": "Aeroport international",
+        "Categories":[""],
+        "Type": "Discrete",
+        "Values": [
+            0,
+            1
+        ]
+    },
+    "Metro": {
+        "Name": "Metro",
+        "Categories":["Driving"],
+        "Type": "Discrete",
+        "Values": [
+            0,
+            1
+        ]
+    },
+    "Number of cars needed": {
+        "Name": "Number of cars needed",
+        "Categories":["Driving"],
+        "Type": "Discrete",
+        "Values": [
+            0,
+            1,
+            2
+        ]
+    },
+    "Tarif garderie": {
+        "Name": "Tarif garderie",
+        "Categories":[""],
+        "Type": "Continuous",
+        "Min": 10,
+        "Max": 50
+    },
+    "Population": {
+        "Name": "Population",
+        "Categories":[""],
+        "Type": "Continuous",
+        "Min": 50000,
+        "Max": 1000000
+    },
+    "Large cities nearby": {
+        "Name": "Large cities nearby",
+        "Categories":[""],
+        "Type": "Discrete",
+        "Values": [
+            0,
+            1
+        ]
+    },
+    "Socioeconomic demographic": {
+        "Name": "Socioeconomic demographic",
+        "Categories":[""],
+        "Type": "Discrete",
+        "Values": [
+            "Sort of poor",
+            "Middle class",
+            "Affluent"
+        ]
+    }
+}
