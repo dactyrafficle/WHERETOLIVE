@@ -2,7 +2,7 @@
 
 let SETS = [];
 let count = 0;
-let n_sets = 10;
+let n_sets = 100;
 
 let n_permut = 1;
 
